@@ -27,15 +27,17 @@ class HomePage extends StatelessWidget{
 
     body: Center(child: Column(mainAxisAlignment: MainAxisAlignment.center,
     children: <Widget> [
+      
       const Text("Oferta de Formación Sena Sofia PLus",
-      style: TextStyle(fontSize: 24, backgroundColor: Colors.yellow, color: Colors.red, fontStyle: FontStyle.italic, fontWeight: FontWeight.bold ),),
+      style: TextStyle(fontSize: 20, backgroundColor: Colors.yellow, color: Colors.red, fontStyle: FontStyle.italic, fontWeight: FontWeight.bold ),),
+      const SizedBox(height: 10,),
       const Text("Oferta de Formación Sena Sofia PLus",
-      style: TextStyle(fontSize: 50, fontWeight: FontWeight.bold),),
+      style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold),textAlign: TextAlign.center),
       const SizedBox(height: 20,),
-      Image.asset('assets/images/Banner.png', width: 400, height: 300,),
+      Image.asset('assets/images/Banner.png', width: 350, height: 200,),
       const SizedBox(height: 20,),
-      const Text("Oferta Formación Sena Sofia PLus",
-      style: TextStyle(fontSize: 50, fontWeight: FontWeight.bold),),
+      const Text("El Servicio Nacional de Aprendizaje, SENA, está encargado de cumplir la función que corresponde al Estado de invertir en el desarrollo social y técnico de los trabajadores colombianos",
+      style: TextStyle(fontSize: 10, fontWeight: FontWeight.bold),textAlign: TextAlign.center),
     ] ,),),);
   }
 }
